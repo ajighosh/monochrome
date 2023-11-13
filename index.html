@@ -52,15 +52,20 @@
             <div class="col">
                 <h2 class="right-text">Everything is <br> about to <span class="change">change</span></h2>
                 <br><br>
-                <form style="min-width: 300px; float: right;">
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                            else.</small>
-                    </div>
-                    <button type="submit" class="btn btn-color" style="min-width: 300px;">Submit</button>
-                </form>
+<form style="min-width: 300px; float: right;" method="post" action="process_form.php">
+    <div class="form-group">
+        <input type="email" class="form-control" name="recipient_email" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Recipient's Email" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+            else.</small>
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" name="sender_email" id="senderEmail" aria-describedby="emailHelp"
+            placeholder="Your Email" required>
+    </div>
+    <button type="submit" class="btn btn-color" style="min-width: 300px;">Submit</button>
+</form>
+
             </div>
         </div>
     </div>
