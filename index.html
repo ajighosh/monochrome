@@ -1,51 +1,83 @@
-<!doctype html>
-<html lang=en>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset=UTF-8 />
-    <meta name=description content="Free coming soon template">
-    <meta name=author content="Pawel Zuchowski">
-    <meta name=viewport content="width=device-width,initial-scale=1" />
-    <meta http-equiv=X-UA-Compatible content="ie=edge" />
-    <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
-        integrity=sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO crossorigin=anonymous>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel=stylesheet>
-    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;700&display=swap" rel=stylesheet>
-    <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-    <script src=https://kit.fontawesome.com/3c09bcb51a.js></script>
-    <title>Comming Soon</title>
-    <link href="styles/main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Stuffvish coming soon</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome CDN link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <div class=container>
-        <div class=row>
-            <div class="left-wrap col-12 col-md-5">
-                <div class=left>
-                    <p><span class=days></span><span class=small> days</span></p>
-                    <p><span class=hours></span><span class=small> hours</span></p>
-                    <p>&nbsp;&nbsp;<span class=minutes></span><span class=small> minutes</span></p>
-                    <p>&nbsp;&nbsp;<span class=seconds></span><span class=small> seconds</span></p>
-                </div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <a href="#" class="navbar-brand">StuffVish</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fa fa-telegram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fa fa-envelope"><span class="email">
+                                &nbsp;support@stuffvish.com</span></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="row d-flex align-items-center" style="min-height: 80vh;">
+            <div class="col float-right">
+                <h2 class="left-text">We are <span class="creating">creating</span> something <span class="different">
+                        different</span></h2>
             </div>
-            <div class="col-12 col-md-7 right">
-                <div class=mainInfo>
-                    <h1>COMING SOON</h1>
-                    <p class=slogan>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur
-                        delectus asperiores tempora autem laboriosam omnis. </p>
-                    <form class=form-subscribe action=#> <input type=email class=form placeholder="Your eamil address"
-                            required> <button type=submit>Subscribe</button> </form>
-                </div>
-                <ul class=icon-list>
-                    <li class=icon><a class=twitter href=google.com></a></li>
-                    <li class=icon><a class=facebook href=google.com></a></li>
-                    <li class=icon><a class=instagram href=google.com></a></li>
-                </ul>
+            <div class="col">
+                <h2 class="right-text">Everything is <br> about to <span class="change">change</span></h2>
+                <br><br>
+                <form style="min-width: 300px; float: right;">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-color" style="min-width: 300px;">Submit</button>
+                </form>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="scripts/bundle.js"></script>
- 
+
+    <!-- JS link-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
