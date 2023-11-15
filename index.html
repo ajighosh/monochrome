@@ -17,6 +17,31 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <style>
+        /* CSS to style the typing effect */
+        .typing-effect {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .typing-effect .red-typing {
+            display: inline-block;
+            width: 0;
+            color: red;
+            animation: typing 3s steps(40, end);
+        }
+
+        /* CSS animation for typing effect */
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -46,8 +71,8 @@
     <div class="container">
         <div class="row d-flex align-items-center" style="min-height: 80vh;">
             <div class="col float-right">
-                <h2 class="left-text">SHAPING  <span class="creating">  <br>GPT's</br>    </span>     TO FIT   <span class="different">
-                        <br>YOUR WORLD</br></span></h2>
+                <h2 class="left-text">SHAPING <span class="creating">  <br><span class="typing-effect"><span class="red-typing">GPT's</span></span></br></span> TO FIT <span class="different">
+                        <br>YOUR WORLD</span></h2>
             </div>
             <div class="col">
                 <h2 class="right-text">Everything is <br> about to <span class="change">change</span></h2>
