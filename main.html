@@ -1,54 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom GPT's Store</title>
     <style>
-        /* Style the arrow container */
-        .next-page-arrow {
-            position: fixed;
-            bottom: 20px; /* Adjust the position as needed */
-            right: 20px; /* Adjust the position as needed */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Black Background */
+            color: #fff; /* Text color */
+            margin: 0;
+            padding: 0;
         }
 
-        /* Style the arrow icon */
-        .next-page-arrow a {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px; /* Adjust the size as needed */
-            height: 40px; /* Adjust the size as needed */
-            background-color: #007bff; /* Arrow background color */
-            color: #fff; /* Arrow text color */
-            border-radius: 50%;
-            font-size: 28px; /* Increase font size for a thicker arrow */
-            text-decoration: none;
-            animation: blink 1s infinite; /* Blink animation */
-            transition: background-color 0.3s ease; /* Smooth color transition */
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin: 20px 0;
+            background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: rainbowText 5s linear infinite; /* Rainbow color animation */
         }
 
-        /* Hover effect */
-        .next-page-arrow a:hover {
-            background-color: #0056b3; /* Hover background color */
-        }
-
-        /* Blink animation */
-        @keyframes blink {
+        @keyframes rainbowText {
             0% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0;
+                background-position: 0% 50%;
             }
             100% {
-                opacity: 1;
+                background-position: 100% 50%;
             }
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            border-collapse: collapse;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Box styling for product entries */
+        .product-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product-box:hover {
+            transform: scale(1.02);
+        }
+
+        /* Text color for product details */
+        .product-details {
+            color: #000; /* Black text color */
         }
     </style>
 </head>
 <body>
-    <div class="next-page-arrow">
-        <a href="next-page.html">
-            <span>&#8594;</span> <!-- Right arrow character -->
-        </a>
-    </div>
+    <h1>Custom GPT's Store</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Developer</th>
+                <th>Developer Profile URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="product-box">
+                <td class="product-details">Product 1</td>
+                <td class="product-details">Description for Product 1</td>
+                <td class="product-details">Designer 1</td>
+                <td class="product-details"><a href="https://www.designer1.com">Designer 1's Profile</a></td>
+            </tr>
+            <tr class="product-box">
+                <td class="product-details">Product 2</td>
+                <td class="product-details">Description for Product 2</td>
+                <td class="product-details">Designer 2</td>
+                <td class="product-details"><a href="https://www.designer2.com">Designer 2's Profile</a></td>
+            </tr>
+            <!-- Add more products as needed -->
+        </tbody>
+    </table>
 </body>
 </html>
