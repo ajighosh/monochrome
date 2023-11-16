@@ -83,21 +83,36 @@
 
         /* Style the arrow icon */
         .next-page-arrow a {
-            display: block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             width: 40px; /* Adjust the size as needed */
             height: 40px; /* Adjust the size as needed */
             background-color: #007bff; /* Arrow background color */
             color: #fff; /* Arrow text color */
-            text-align: center;
-            line-height: 40px;
             border-radius: 50%;
-            font-size: 24px; /* Arrow size */
+            font-size: 28px; /* Increase font size for a thicker arrow */
             text-decoration: none;
+            animation: blink 1s infinite; /* Blink animation */
+            transition: background-color 0.3s ease; /* Smooth color transition */
         }
 
-        /* Hover effect (optional) */
+        /* Hover effect */
         .next-page-arrow a:hover {
             background-color: #0056b3; /* Hover background color */
+        }
+
+        /* Blink animation */
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -109,3 +124,4 @@
     </div>
 </body>
 </html>
+
