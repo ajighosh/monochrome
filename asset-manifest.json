@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/monochrome/static/css/main.d0b44d93.css",
+    "main.js": "/monochrome/static/js/main.9ad089c0.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/monochrome/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/back2.jpg": "/monochrome/static/media/back2.0dbae9d078e6df0f8ab8.jpg",
+    "static/media/ListGPT.jpg": "/monochrome/static/media/ListGPT.f83a343971939ff61b63.jpg",
+    "static/media/AddGPT.jpg": "/monochrome/static/media/AddGPT.627e6a0dfe134674fa2a.jpg",
+    "static/media/logo.png": "/monochrome/static/media/logo.50155b92e86aea854864.png",
+    "static/media/logo.svg": "/monochrome/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/monochrome/index.html",
+    "main.d0b44d93.css.map": "/monochrome/static/css/main.d0b44d93.css.map",
+    "main.9ad089c0.js.map": "/monochrome/static/js/main.9ad089c0.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/monochrome/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b44d93.css",
+    "static/js/main.9ad089c0.js"
+  ]
+}
