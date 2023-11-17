@@ -1,5 +1,7 @@
 // "homepage": "http://TopDev1028.github.io/CustomGPT",
 
-\_redirects
+_redirects
 
-/\* /index.html 200
+/*    /index.html   200
+
+
